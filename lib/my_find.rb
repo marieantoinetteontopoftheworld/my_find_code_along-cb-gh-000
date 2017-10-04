@@ -5,7 +5,7 @@ def my_find(collection)
 
   meets_condition = false
   while i < collection.length
-    meets_condition << yield(collection[i])
+    meets_condition = yield(collection[i])
 
     if meets_condition
       return collection[i]
