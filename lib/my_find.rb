@@ -9,6 +9,7 @@ def my_find(collection)
 
     if meets_condition
       return collection[i]
+    end
     i += 1
   end
 end
